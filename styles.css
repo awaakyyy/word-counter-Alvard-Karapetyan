@@ -1,0 +1,58 @@
+.word-counter-container {
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.word-counter-container h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.word-counter-container textarea {
+    display: block;
+    width: 100%;
+    height: 200px;
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 24px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    resize: none;
+    max-width: 800px;
+    line-height: 2;
+    margin: 0 auto;
+
+
+}
+
+.word-counter-container .count-btn {
+    padding: 16px 48px;
+    margin: 32px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(27, 42, 71);
+    color: white;
+    border-radius: 8px;
+    transition: 500ms ease;
+}
+
+.word-counter-container .count-btn:hover {
+    background-color: black
+}
+
+.word-counter-container .count {
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.word-counter-container .count span {
+    font-size: 56px;
+    font-weight: bold;
+    ;
+}
