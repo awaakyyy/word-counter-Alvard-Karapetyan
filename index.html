@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Counter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class='word-counter-container'>
+        <h2>Welcome to my word counter!</h2>
+        <form onsubmit="handleCounter(event)">
+            <input type="radio" name="countOption" value="words" id="words" checked> Word
+            <input type="radio" name="countOption" value="letters" id="letters"> Letter
+            <input type="radio" name="countOption" value="sentences" id="sentences"> Sentence
+            <textarea id="textarea" cols="30" rows="10"></textarea>
+            <button class="count-btn" type="submit">Count</button>
+            <div id="wordCount">The result is <span>0</span></div>
+    </div>
+    </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
